@@ -7,8 +7,8 @@ public class Main {
         System.out.println(rwOnly.name = "ajay");
         // error :- java: name has private access in com.driver.RWOnly
          */
-
         rwOnly.setName("Ajay");
+
         System.out.println(rwOnly.getName());
     }
 }
